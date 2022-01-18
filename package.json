@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": "sass scss/custom.scss:css/custom.css",
-    "sass-watch": "sass --watch scss/custom.scss:css/custom.css"
+    "sass": "sass src/scss/custom.scss:src/css/custom.css",
+    "sass-watch": "sass --watch src/scss/custom.scss:src/css/custom.css"
   },
   "repository": {
     "type": "git",
