@@ -11988,8 +11988,8 @@ fieldset:disabled .btn {
 }
 
 .bg-nav {
-  background: -webkit-gradient(linear, left top, left bottom, from(#1bb5ac), color-stop(#b2ddb0), to(#e4eae6));
-  background: linear-gradient(to bottom, #1bb5ac, #b2ddb0, #e4eae6);
+  background: -webkit-gradient(linear, left top, right top, from(#1bb5ac), color-stop(#b2ddb0), to(#e4eae6));
+  background: linear-gradient(to right, #1bb5ac, #b2ddb0, #e4eae6);
 }
 
 p {
