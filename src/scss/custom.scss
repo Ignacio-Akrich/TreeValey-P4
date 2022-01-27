@@ -2,7 +2,7 @@
 // Option A: Include all of Bootstrap
 
 $body-bg: #f7f7f5;
-$primary: #fff;
+$gray: #959595;
 
 // Include any default variable overrides here (though functions won't be available)
 
@@ -42,11 +42,11 @@ $primary: #fff;
 }
 
 p{
-    color: #959595;
+    color: $gray;
     letter-spacing: 0.05em;
     line-height: 24px;
     a{
-        color: #959595;
+        color: $gray;
     }
 }
 
@@ -74,15 +74,21 @@ h3{
 .ms-footer{
     margin-left: 20px;
 }
+
+.no-dec{
+    text-decoration: none;
+    white-space: nowrap;
+}
 @include media-breakpoint-up(lg) { 
 .a-h{
     height: 130px;
     letter-spacing: .075em;
     line-height: 150px;
     text-align: center;
-    text-decoration: none;
     width: 110px;
 }
+
+
 
 .bg-nav{
     background: linear-gradient(to bottom, #1bb5ac, #b2ddb0, #e4eae6);
