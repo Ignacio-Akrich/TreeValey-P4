@@ -54,6 +54,8 @@ h3{
     color: #e49e06;
     font-family: anticregular;
     letter-spacing: .1em;
+    line-height: 24px;
+    font-weight: 400;
 }
 .bg-footer{
     background: linear-gradient(to bottom, #2ac3c3, #1e819d);
@@ -71,13 +73,16 @@ h3{
     color: #787b66;
 }
 
+.rounded-4{
+    border-radius: 0.8rem;
+}
+
 .ms-footer{
     margin-left: 20px;
 }
 
 .no-dec{
     text-decoration: none;
-    white-space: nowrap;
 }
 @include media-breakpoint-up(lg) { 
 .a-h{
