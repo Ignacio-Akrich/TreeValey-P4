@@ -19,7 +19,7 @@ Esta página es una transformación a Bootstrap de una página hecha en CSS. La 
 
 ## Guía de usuario
 ---
-###Componentes:
+### Componentes:
 
 <h3>Componentes de Bootstrap</h3>
 - NAVBAR: Barra de navegación.<br>
@@ -38,7 +38,7 @@ Esta página es una transformación a Bootstrap de una página hecha en CSS. La 
 - Spacing<br>
 - Text
 
-###Customización:
+### Customización:
 
 <h3>Customización de colores y estilos en el custom.scss</h3>
 Se han cambiado algunos colores de Bootstrap por colores propios y se han añadido algunos estilos.
