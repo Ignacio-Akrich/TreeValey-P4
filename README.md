@@ -2,7 +2,7 @@
 
 ## Tabla de contenidos:
 ---
-- [Bootstrap v5.1](#Version-bootstrap-5.1)
+- [Bootstrap v5.1](#Version bootstrap)
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
 - [Mejoras del proyecto](#Mejoras-proyecto)
