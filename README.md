@@ -22,7 +22,7 @@ Esta página es una transformación a Bootstrap de una página hecha en CSS. La 
 **Componentes:**
 
 <h3>Componentes de Bootstrap</h3>
-- NAVBAR: Barra de navegación.
+- NAVBAR: Barra de navegación.<br>
 - COLLAPSE: Barra de navegación con menú desplegables.
 - BUTTONS: Boton de acción para desplegar el menú.  
 - BADGES: Señala las views del blog.
