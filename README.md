@@ -23,19 +23,19 @@ Esta página es una transformación a Bootstrap de una página hecha en CSS. La 
 
 <h3>Componentes de Bootstrap</h3>
 - NAVBAR: Barra de navegación.<br>
-- COLLAPSE: Barra de navegación con menú desplegables.
-- BUTTONS: Boton de acción para desplegar el menú.  
-- BADGES: Señala las views del blog.
+- COLLAPSE: Barra de navegación con menú desplegables.<br>
+- BUTTONS: Boton de acción para desplegar el menú. <br> 
+- BADGES: Señala las views del blog.<br>
 - CARDS: Tarjetas de información del blog.
 
 <h3>Bootstrap Utilities</h3>
-- Background
-- Display
-- Grid
-- Flex
-- Float
-- Position
-- Spacing
+- Background<br>
+- Display<br>
+- Grid<br>
+- Flex<br>
+- Float<br>
+- Position<br>
+- Spacing<br>
 - Text
 
 **Customización:**
@@ -45,7 +45,7 @@ Se han cambiado algunos colores de Bootstrap por colores propios y se han añadi
 
 ## Mejoras del proyecto
 ---
-- Se han hecho todas las páginas extras.
+- Se han hecho todas las páginas extras.<br>
 - La web es responsive, adaptable y fluida.
 
 ## Color and font Pallete
