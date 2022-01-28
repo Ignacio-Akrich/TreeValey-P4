@@ -5,10 +5,10 @@
 - [Bootstrap v5.1](#Version-bootstrap)
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
-- [Mejoras del proyecto](#Mejoras-proyecto)
+- [Mejoras del proyecto](#Mejoras-del-proyecto)
 - [color_font_pallete](#Color-and-font-pallete)  
 - [Netlify](#Netlify)
-- [Autor](#autor)
+- [Autor](#Autor)
 
 ## Version bootstrap
 ---
