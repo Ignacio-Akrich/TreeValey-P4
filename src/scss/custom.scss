@@ -2,23 +2,31 @@
 // Option A: Include all of Bootstrap
 
 $body-bg: #f7f7f5;
-$gray: #959595;
+$secondary: #959595;
+$orange: #e49e06;
+$cyan: #5bdee6;
+$primary: #e4eae6;
+$gray: #787b66;
+
+$body-font-family: 'noto sans', sans-serif;
 
 // Include any default variable overrides here (though functions won't be available)
 
 @import "../../node_modules/bootstrap/scss/bootstrap";
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100;400&family=Lato:wght@300&family=Monoton&display=swap');
 
 // Then add additional custom code here
-
-
 
 .fs-h3{
     font-size: 1.3rem;
 }
 
 .f-arial{
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 0.7rem;
+}
+
+.body-h{
+    min-height: 1005px;
 }
 
 .w-index{
@@ -34,7 +42,7 @@ $gray: #959595;
 }
 
 .bg-header{
-    background-color: #e4eae6;
+    background-color: $primary;
 }
 
 .bg-nav{
@@ -42,16 +50,24 @@ $gray: #959595;
 }
 
 p{
-    color: $gray;
+    color: $secondary;
     letter-spacing: 0.05em;
     line-height: 24px;
     a{
-        color: $gray;
+        color: $secondary;
+    }
+}
+
+span{
+    color: $secondary;
+    line-height: 24px;
+    a {
+        color: $secondary;
     }
 }
 
 h3{
-    color: #e49e06;
+    color: $orange;
     font-family: anticregular;
     letter-spacing: .1em;
     line-height: 24px;
@@ -66,11 +82,11 @@ h3{
 }
 
 .p-color-footer{
-    color:#5bdee6;
+    color: $cyan;
 }
 
 .a-color-header{
-    color: #787b66;
+    color: $gray;
 }
 
 .rounded-4{
@@ -83,6 +99,10 @@ h3{
 
 .no-dec{
     text-decoration: none;
+}
+
+.text-justify{
+    text-align: justify;
 }
 @include media-breakpoint-up(lg) { 
 .a-h{
