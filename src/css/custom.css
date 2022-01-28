@@ -11132,19 +11132,20 @@ textarea.form-control-lg {
 }
 
 .body-h {
-  min-height: 1005px;
+  min-height: 62.8rem;
 }
 
 .w-index {
-  width: 902px;
+  width: 90%;
+  overflow-x: hidden;
 }
 
 .w-footer {
-  width: 940px;
+  width: 58.75rem;
 }
 
 .w-p {
-  width: 430px;
+  width: 26.8rem;
 }
 
 .bg-header {
@@ -11158,7 +11159,7 @@ textarea.form-control-lg {
 p {
   color: #959595;
   letter-spacing: 0.05em;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 p a {
   color: #959595;
@@ -11166,7 +11167,7 @@ p a {
 
 span {
   color: #959595;
-  line-height: 24px;
+  line-height: 1.5rem;
 }
 span a {
   color: #959595;
@@ -11176,7 +11177,7 @@ h3, .h3 {
   color: #e49e06;
   font-family: anticregular;
   letter-spacing: 0.1em;
-  line-height: 24px;
+  line-height: 1.5rem;
   font-weight: 400;
 }
 
@@ -11185,7 +11186,7 @@ h3, .h3 {
 }
 
 .h-footer {
-  height: 130px;
+  height: 8.1rem;
 }
 
 .p-color-footer {
@@ -11201,7 +11202,7 @@ h3, .h3 {
 }
 
 .ms-footer {
-  margin-left: 20px;
+  margin-left: 1.25rem;
 }
 
 .no-dec {
@@ -11214,15 +11215,29 @@ h3, .h3 {
 
 @media (min-width: 992px) {
   .a-h {
-    height: 130px;
+    height: 8.1rem;
     letter-spacing: 0.075em;
-    line-height: 150px;
+    line-height: 9.375rem;
     text-align: center;
-    width: 110px;
+    width: 6.875rem;
+  }
+
+  .w-index {
+    width: 56.375rem;
   }
 
   .bg-nav {
     background: linear-gradient(to bottom, #1bb5ac, #b2ddb0, #e4eae6);
+  }
+}
+@media (max-width: 575.98px) {
+  .w-index {
+    width: 100%;
+    padding: 0.5rem;
+  }
+
+  .w-p {
+    width: 90%;
   }
 }
 

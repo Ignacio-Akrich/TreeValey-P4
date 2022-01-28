@@ -26,19 +26,21 @@ $body-font-family: 'noto sans', sans-serif;
 }
 
 .body-h{
-    min-height: 1005px;
+    min-height: 62.8rem;
 }
 
+
 .w-index{
-    width: 902px;
+    width: 90%;
+    overflow-x: hidden;
 }
 
 .w-footer{
-    width: 940px;
+    width: 58.75rem; ;
 }
 
 .w-p{
-    width: 430px;
+    width: 26.8rem;
 }
 
 .bg-header{
@@ -52,7 +54,7 @@ $body-font-family: 'noto sans', sans-serif;
 p{
     color: $secondary;
     letter-spacing: 0.05em;
-    line-height: 24px;
+    line-height: 1.5rem;
     a{
         color: $secondary;
     }
@@ -60,7 +62,7 @@ p{
 
 span{
     color: $secondary;
-    line-height: 24px;
+    line-height: 1.5rem;
     a {
         color: $secondary;
     }
@@ -70,7 +72,7 @@ h3{
     color: $orange;
     font-family: anticregular;
     letter-spacing: .1em;
-    line-height: 24px;
+    line-height: 1.5rem;
     font-weight: 400;
 }
 .bg-footer{
@@ -78,7 +80,7 @@ h3{
 }
 
 .h-footer{
-    height: 130px;
+    height: 8.1rem;
 }
 
 .p-color-footer{
@@ -94,7 +96,7 @@ h3{
 }
 
 .ms-footer{
-    margin-left: 20px;
+    margin-left: 1.25rem;
 }
 
 .no-dec{
@@ -106,16 +108,28 @@ h3{
 }
 @include media-breakpoint-up(lg) { 
 .a-h{
-    height: 130px;
+    height: 8.1rem;
     letter-spacing: .075em;
-    line-height: 150px;
+    line-height: 9.375rem;
     text-align: center;
-    width: 110px;
+    width: 6.875rem;
 }
 
-
+.w-index{
+    width: 56.375rem;
+}
 
 .bg-nav{
     background: linear-gradient(to bottom, #1bb5ac, #b2ddb0, #e4eae6);
+}
+}
+
+@include media-breakpoint-down(sm) {
+.w-index{
+    width: 100%;
+    padding: 0.5rem;
+}
+.w-p{
+    width: 90%;
 }
 }
